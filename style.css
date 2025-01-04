@@ -1,0 +1,195 @@
+/* Reset default browser styling */
+body, h2, form, div, select, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4caf50, #2e7d32);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    background: #ffffff;
+    color: #333333;
+    border-radius: 10px;
+    padding: 20px 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2e7d32;
+  }
+  
+  /* Semester dropdown styling */
+  #semester-step label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+  }
+  
+  #semester {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Subject and input styling */
+  .subject {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .subject label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .grade {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  /* Button styling */
+  button {
+    background: #4caf50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #388e3c;
+  }
+  
+  /* Output styling */
+  .output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead th {
+    background: #4caf50;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  tbody td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  tbody td input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  tbody td button {
+    background: #e53935;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  tbody td button:hover {
+    background: #c62828;
+  }
+  button {
+    background: #4caf50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #388e3c;
+  }
+  
+  /* Output styling */
+  .output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+  }

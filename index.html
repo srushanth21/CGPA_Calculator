@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CGPA & SGPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>SGPA Calculator</h2>
+
+    <!-- Step 1: Select Semester -->
+    <div id="semester-step">
+      <label for="semester">Select Semester:</label>
+      <select id="semester" onchange="loadSemesterSubjects()">
+        <option value="" disabled selected>Select a semester</option>
+        <option value="1">Semester 1</option>
+        <option value="2">Semester 2</option>
+        <option value="3">Semester 3</option>
+        <option value="4">Semester 4</option>
+        <option value="5">Semester 5</option>
+        <option value="6">Semester 6</option>
+        <option value="7">Semester 7</option>
+        <option value="8">Semester 8</option> 
+      </select>
+    </div>
+
+    <!-- Step 2: Enter Grades -->
+    <div id="grades-step" style="display: none;">
+      <form id="cgpaForm">
+        <div id="subjects-container"></div>
+        <div class="buttons">
+          <button type="button" onclick="calculateSGPA()">Calculate SGPA</button>
+          <button type="button" class="back-button" onclick="goBack()">Go Back</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Output Section -->
+    <div class="output" id="result"></div>
+
+    <h2>CGPA Calculator</h2>
+        <!-- Table for CGPA Input -->
+        <table id="cgpa-table">
+          <thead>
+            <tr>
+              <th>Semester</th>
+              <th>SGPA</th>
+              <th>Credits</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Dynamic rows will be added here -->
+          </tbody>
+        </table>
+    
+        <!-- Buttons to Add Row and Calculate CGPA -->
+        <div class="buttons">
+          <button onclick="addRow()">Add Semester</button>
+          <button onclick="calculateCGPA()">Calculate CGPA</button>
+        </div>
+    
+        <!-- Output Section -->
+        <div id="cgpa-result" class="output"></div>
+      </div>
+    
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
