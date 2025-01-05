@@ -67,6 +67,12 @@ body, h2, form, div, select, label, input, button {
     display: block;
     margin-bottom: 5px;
   }
+#subjects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+  gap: 20px; /* Add space between the columns */
+  margin-bottom: 20px;
+}
   
   .grade {
     width: 100%;
