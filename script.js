@@ -24,7 +24,7 @@ const semesterData = {
       { course: "DBMS", credits: 4 },
       { course: "OS", credits: 4 },
       { course: "RANAC", credits: 4 },
-      { course: "OS", credits: 2 },
+      { course: "PC", credits: 2 },
     ],
     4: [
       { course: "CCN", credits: 4 },
