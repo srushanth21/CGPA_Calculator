@@ -1,11 +1,11 @@
 // Predefined credits and courses for each semester
 const semesterData = {
     1: [
-      { course: "Computer Programming", credits: 4 },
-      { course: "Discrete Structures and Matrix Algebra", credits: 4 },
-      { course: "Overview of Computers Workshop", credits: 4 },
-      { course: "Digital Logic Design", credits: 4 },
-      { course: "Essential English", credits: 2 },
+      { course: "CP", credits: 4 },
+      { course: "DSMA", credits: 4 },
+      { course: "OCW", credits: 4 },
+      { course: "DLD", credits: 4 },
+      { course: "EE", credits: 2 },
       { course: "FHVE/EE", credits: 2 },
       
     ],
@@ -196,6 +196,8 @@ function addRow() {
   `;
 
   tableBody.appendChild(newRow);
+
+  document.body.style.height = (currentHeight + 10) + "vh";
 }
 
 function removeRow(button) {
