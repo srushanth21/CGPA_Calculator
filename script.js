@@ -42,7 +42,7 @@ const semesterData = {
         { course: "PE-4", credits: 3 },
         { course: "SSHAM-8", credits: 2 },
         { course: "SSHAM-8", credits: 2 },
-        { course: "Honours-1", credits: 2 },
+        { course: "Honours-1", credits: 4 },
       ],
     6: [
         { course: "WBD", credits: 4 },
@@ -52,20 +52,20 @@ const semesterData = {
         { course: "IE-1", credits: 3 },
         { course: "SSHAM-10", credits: 2 },
         { course: "BTP-1", credits: 4 },
-        { course: "Honours-2", credits: 2 },
+        { course: "Honours-2", credits: 4 },
       ],
       7: [
         { course: "PE-8", credits: 3 },
         { course: "IE-2", credits: 3 },
         { course: "SSHAM-11", credits: 2 },
         { course: "BTP-2", credits: 4 },
-        { course: "Honours-3", credits: 2},
+        { course: "Honours-3", credits: 4},
       ],
       8: [
         { course: "PE-9", credits: 3 },
         { course: "IE-3", credits: 3 },
         { course: "SSHAM-12", credits: 2 },
-        { course: "Honours-4", credits: 2 },
+        { course: "Honours-4", credits: 4 },
       ],
     // Add more semesters and courses here
   };
